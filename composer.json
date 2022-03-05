@@ -1,0 +1,30 @@
+{
+    "name": "olakunlevpn/geoiplookup",
+    "description": "Geoiplookup.io IP's lookup, Perfect for PHP applications.",
+    "type": "library",
+    "keywords": [
+        "Geoiplookup",
+        "package"
+    ],
+    "homepage": "https://github.com/olakunlevpn/Geoiplookup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geoiplookup",
+            "email": "olakunlevpn@live.com",
+            "homepage": "https://maylancer.org",
+            "role": "Developer"
+        }
+    ],
+     "require": {
+        "php": "^7.2 || ^8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Geoiplookup\\": "src"
+        }
+    },
+    "extra": {}
+}
