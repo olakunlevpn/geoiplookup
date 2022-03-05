@@ -11,7 +11,7 @@ class GeoiplookupClient
      const ENDPOINT_URL = 'https://json.geoiplookup.io/';
 
     /**
-     * Create a new Skeleton Instance
+     *  new instance
      */
     public function __construct()
     {
@@ -22,11 +22,11 @@ class GeoiplookupClient
     }
 
     /**
-     * Friendly welcome
+     * lookup user with their IpAddress (Leave variable as null to auto grab current user ip address)
      *
-     * @param string $phrase Phrase to return
+     * @param string $ipAddress
      *
-     * @return string Returns the phrase passed in
+     * @return json
      */
     public function lookUp($ipAddress = null)
     {

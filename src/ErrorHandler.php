@@ -10,7 +10,7 @@ class ErrorHandler
     /**
      * @param Response $response
      *
-     * @throws B2Exception
+     * @throws Exception
      */
     public static function handleErrorResponse(Response $response)
     {

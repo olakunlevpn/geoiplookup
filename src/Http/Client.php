@@ -13,7 +13,7 @@ use Psr\Http\Message\ResponseInterface;
 class Client extends GuzzleClient
 {
     /**
-     * Sends a response to the B2 API, automatically handling decoding JSON and errors.
+     * Sends a response to the Geoiplookup, automatically handling decoding JSON and errors.
      *
      * @param string $method
      * @param null   $uri

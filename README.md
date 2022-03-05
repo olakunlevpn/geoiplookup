@@ -48,6 +48,27 @@ echo $data->getIp();
 
 ```
 
+
+
+## Pass custom ip address as variable 
+
+``` php
+
+require_once "vendor/autoload.php";
+use Olakunlevpn\Geoiplookup\GeoiplookupClient;
+
+$Geoiplookup = new GeoiplookupClient();
+
+$ipAddress = $_SERVER['REMOTE_ADDR']; 
+
+$data = $Geoiplookup->lookUp($ipAddress);
+
+
+echo $data->getIp();
+
+```
+
+
 ## Testing
 
 ``` bash
