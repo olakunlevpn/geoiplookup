@@ -78,7 +78,7 @@ $ phpunit
 
 ## Credits
 
-- [:author_name](https://github.com/olakunlevpn)
+- [Olakunlevpn](https://github.com/olakunlevpn)
 
 ## License
 
