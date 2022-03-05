@@ -28,7 +28,7 @@ class GeoiplookupClient
      *
      * @return string Returns the phrase passed in
      */
-    public function echoPhrase($ipAddress = null)
+    public function lookUp($ipAddress = null)
     {
 
          $response = $this->_Geoiplookup('GET', self::ENDPOINT_URL.'/'.$ipAddress);
