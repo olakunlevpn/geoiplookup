@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Geoiplookup\\": "src"
+            "Olakunlevpn\\Geoiplookup\\": "src"
         }
     },
     "extra": {}
