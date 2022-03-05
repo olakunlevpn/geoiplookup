@@ -1,5 +1,7 @@
 <?php
+/*  
 
+ */
 require_once "vendor/autoload.php";
 use Olakunlevpn\Geoiplookup\GeoiplookupClient;
 
@@ -8,7 +10,7 @@ $Geoiplookup = new GeoiplookupClient();
 $data = $Geoiplookup->lookUp();
 echo $data->getIp();
 
-
+   
 // $data->getIp();
 // $data->getIsp();
 // $data->getOrganization();

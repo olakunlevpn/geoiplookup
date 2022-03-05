@@ -2,7 +2,7 @@
 .idea
 *.iml
 *.ipr
-*.iws
+*.iws  
 
 # Netbeans
 nbproject

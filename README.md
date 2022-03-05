@@ -9,7 +9,7 @@ Via Composer
 
 ``` bash
 $ composer require olakunlevpn/geoiplookup
-```
+``` 
 
 ## Usage
 
